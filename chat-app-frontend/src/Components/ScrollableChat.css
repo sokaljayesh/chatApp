@@ -1,0 +1,40 @@
+/* ScrollableChat.css */
+.scrollable-feed-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 450px;
+  overflow-y: auto;
+  padding: 10px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(224, 221, 215);
+}
+
+.sentFrom {
+  align-self: flex-end;
+  background-color: #005c4b;
+  color: rgb(233, 237, 239);
+}
+
+.sentTo {
+  align-self: flex-start;
+  background-color: #202c33;
+  color: rgb(233, 237, 239);
+}
+
+.message-content {
+  word-wrap: break-word;
+}
+
+.message-timestamp {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+
